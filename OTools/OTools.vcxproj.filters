@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="elf.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="binbuf.h" />
+    <ClInclude Include="outils.h" />
+    <ClInclude Include="commandline.h" />
+    <ClInclude Include="shaders.h" />
+    <ClInclude Include="NvTriStrip\NvTriStrip.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\NvTriStripObjects.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\VertexCache.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsh\Buffer.h">
+      <Filter>Fsh</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsh\Exception.h">
+      <Filter>Fsh</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsh\File.h">
+      <Filter>Fsh</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsh\Fsh.h">
+      <Filter>Fsh</Filter>
+    </ClInclude>
+    <ClInclude Include="target.h" />
+    <ClInclude Include="D3DDevice\D3DDevice.h">
+      <Filter>D3DDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonwriter.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="srgb\SrgbTransform.hpp">
+      <Filter>srgb</Filter>
+    </ClInclude>
+    <ClInclude Include="modelfsh_shared.h" />
+    <ClInclude Include="WinInclude.h" />
+    <ClInclude Include="D3DInclude.h" />
+    <ClInclude Include="uvskin.h" />
+    <ClInclude Include="delaunator-cpp\include\delaunator.hpp">
+      <Filter>delaunator-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DDevice\Renderer.h">
+      <Filter>D3DDevice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dump.cpp" />
+    <ClCompile Include="export.cpp" />
+    <ClCompile Include="import.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="binbuf.cpp" />
+    <ClCompile Include="outils.cpp" />
+    <ClCompile Include="commandline.cpp" />
+    <ClCompile Include="info.cpp" />
+    <ClCompile Include="shaders.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="elf.cpp" />
+    <ClCompile Include="NvTriStrip\NvTriStrip.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\NvTriStripObjects.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\VertexCache.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsh\Buffer.cpp">
+      <Filter>Fsh</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsh\Exception.cpp">
+      <Filter>Fsh</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsh\File.cpp">
+      <Filter>Fsh</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsh\Fsh.cpp">
+      <Filter>Fsh</Filter>
+    </ClCompile>
+    <ClCompile Include="target.cpp" />
+    <ClCompile Include="D3DDevice\D3DDevice.cpp">
+      <Filter>D3DDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonwriter.cpp" />
+    <ClCompile Include="dumpshaders.cpp" />
+    <ClCompile Include="target_fm13.cpp" />
+    <ClCompile Include="target_fifa03.cpp" />
+    <ClCompile Include="target_cricket07.cpp" />
+    <ClCompile Include="target_fifa04.cpp" />
+    <ClCompile Include="target_fifa06.cpp" />
+    <ClCompile Include="target_fifa09.cpp" />
+    <ClCompile Include="target_fifa10.cpp" />
+    <ClCompile Include="target_euro04.cpp" />
+    <ClCompile Include="target_cl0405.cpp" />
+    <ClCompile Include="target_wc06.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="fshop.cpp" />
+    <ClCompile Include="target_nhl04.cpp" />
+    <ClCompile Include="srgb\SrgbTransform.cpp">
+      <Filter>srgb</Filter>
+    </ClCompile>
+    <ClCompile Include="target_tcm05.cpp" />
+    <ClCompile Include="target_fm06.cpp" />
+    <ClCompile Include="alignfile.cpp" />
+    <ClCompile Include="target_rugby06.cpp" />
+    <ClCompile Include="target_rugby08.cpp" />
+    <ClCompile Include="target_rugby2005.cpp" />
+    <ClCompile Include="target_mvp2005.cpp" />
+    <ClCompile Include="target_mvp2004.cpp" />
+    <ClCompile Include="target_mvp2003.cpp" />
+    <ClCompile Include="target_cricket2005.cpp" />
+    <ClCompile Include="uvskin.cpp" />
+    <ClCompile Include="D3DDevice\Renderer.cpp">
+      <Filter>D3DDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="target_nba2004.cpp" />
+    <ClCompile Include="target_nba2003.cpp" />
+    <ClCompile Include="target_nfshp2.cpp" />
+    <ClCompile Include="exportshaders.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvTriStrip">
+      <UniqueIdentifier>{e32f25c1-e616-49ee-9131-7ca96662335d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fsh">
+      <UniqueIdentifier>{0171eb76-e521-43da-be96-b9fe64cda9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DDevice">
+      <UniqueIdentifier>{88226ef0-ebc6-4c4b-a968-a4ab04b3e0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srgb">
+      <UniqueIdentifier>{4c52a252-3c90-4fd8-80d3-5e5c2aa29c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="delaunator-cpp">
+      <UniqueIdentifier>{c8eeb635-66d2-483f-9ab4-62ae6c3e8d31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
