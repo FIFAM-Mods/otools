@@ -14,7 +14,7 @@ Check the Releases page: https://github.com/FIFAM-Mods/otools/releases
 
 ## Changelog
 
-**0.178**
+**0.179**
 ```
 - added support for Windows 11
 ```
