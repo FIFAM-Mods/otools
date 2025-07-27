@@ -8,7 +8,16 @@ The file may contain model data, skeleton information, animations, rendering inf
 
 ![](https://i.imgur.com/KIF4gzwm.png) ![](https://i.imgur.com/WtbqZAwm.png) ![](https://i.imgur.com/tzKCIWkm.png)
 
+## Download
+
+Check the Releases page: https://github.com/FIFAM-Mods/otools/releases
+
 ## Changelog
+
+**0.178**
+```
+- added support for Windows 11
+```
 
 **0.178**
 ```
